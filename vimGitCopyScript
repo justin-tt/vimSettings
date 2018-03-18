@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Running vim copy script"
+
+cp -r ./.vim ~/.vim
+cp -r ./.vimrc ~/.vimrc
+
