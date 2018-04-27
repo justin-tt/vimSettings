@@ -2,7 +2,7 @@
 echo "Running vim upload script"
 cp -r -L ~/.vimrc .
 
-# cp -r ~/.vim .
+cp -r ~/.vim .
 git add --all
 git commit -m "commit"
 git push -u origin master
