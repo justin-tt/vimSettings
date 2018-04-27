@@ -1,5 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
+let mapleader = ","
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -248,7 +249,6 @@ inoremap ;lkj <Esc>:wq<CR>
 " Put your non-Plugin stuff after this line
 "
 " Lusty explorer using vundle
-let mapleader = ","
 noremap <leader>f :LustyFilesystemExplorer<CR>
 noremap <leader>r :LustyFilesystemExplorerFromHere<CR>
 noremap <leader>g :LustyBufferExplorer<CR>
